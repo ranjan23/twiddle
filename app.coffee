@@ -2,7 +2,7 @@ connect = require 'connect'
 quip = require 'quip'
 
 app = connect()
-port = Number(process.env.PORT || 3030)
+port = Number(process.env.PORT || 5000)
 
 app
   .use connect.logger('tiny')
