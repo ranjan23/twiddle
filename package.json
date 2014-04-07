@@ -1,0 +1,24 @@
+{
+  "name": "twiddle",
+  "version": "0.0.0",
+  "description": "twiddle =======",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ranjan23/twiddle.git"
+  },
+  "author": "sanjaypojo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjan23/twiddle/issues"
+  },
+  "homepage": "https://github.com/ranjan23/twiddle",
+  "dependencies": {
+    "connect": "~2.14.3",
+    "quip": "~0.1.2"
+  }
+}
