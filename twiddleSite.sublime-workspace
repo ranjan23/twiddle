@@ -1,0 +1,1211 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"ligh",
+				"lighten(color, 10%)"
+			],
+			[
+				"session",
+				"sessionDB"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"ceil",
+				"ceil(number)"
+			],
+			[
+				"ce",
+				"ceil(number)"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"hea",
+				"headerImage"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"h",
+				"hre	href=\"\""
+			],
+			[
+				"cheat",
+				"cheatsheet"
+			],
+			[
+				"postg",
+				"postgresql"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"single",
+				"single-post"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"Install",
+				"Installation"
+			],
+			[
+				"home",
+				"homebrew"
+			],
+			[
+				"post",
+				"postgres"
+			],
+			[
+				"ren",
+				"renderMD"
+			],
+			[
+				"parse",
+				"parsedUrl"
+			],
+			[
+				"content",
+				"contentIndex"
+			],
+			[
+				"conte",
+				"contentIndex"
+			],
+			[
+				"border-bottom",
+				"border-bottom-style"
+			],
+			[
+				"border-bott",
+				"border-bottom-color"
+			],
+			[
+				"render",
+				"renderJade"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"router",
+				"router404"
+			],
+			[
+				"re",
+				"req"
+			],
+			[
+				"nav",
+				"navPages"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"light",
+				"lighten(@color, 10%)"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"clea",
+				"clearfix"
+			],
+			[
+				"lpg",
+				"lpgPricingAnswers"
+			],
+			[
+				"sw",
+				"switch"
+			],
+			[
+				"clear",
+				"clear"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"if",
+				"ifel	If Else"
+			],
+			[
+				"input",
+				"input-group"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"user",
+				"userFirstName"
+			],
+			[
+				"fil",
+				"fileName"
+			],
+			[
+				"scr",
+				"script"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"grid",
+				"grid-margin"
+			],
+			[
+				"me",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"brand-font",
+				"brand-font-size"
+			],
+			[
+				"body",
+				"bodyClass"
+			],
+			[
+				"ht",
+				"htmlStatic"
+			],
+			[
+				"js",
+				"jsStatic"
+			],
+			[
+				"css",
+				"cssSrc"
+			],
+			[
+				"stati",
+				"staticFiles"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"repo",
+				"responseData"
+			],
+			[
+				"res",
+				"responseData"
+			],
+			[
+				"response",
+				"responseData"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"packa",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"synt ja",
+				"Set Syntax: Jade"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"synta",
+				"Set Syntax: LESS"
+			],
+			[
+				"syntax",
+				"Set Syntax: HTML"
+			],
+			[
+				"indentatino",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"markdown gfm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"markdownEditing",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"upgrad",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"syntax co",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"indentation",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"sublim",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"git ",
+				"Git: Blame"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"git custmo",
+				"Git: Custom Command"
+			],
+			[
+				"git cutom",
+				"Git: Custom Command"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"Git comm",
+				"Git: Custom Command"
+			],
+			[
+				"Git",
+				"Git: Gui"
+			],
+			[
+				"mark",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"refresh",
+				"Side Bar: Refresh"
+			],
+			[
+				"Git: ",
+				"Git: Custom Command"
+			],
+			[
+				"Git: Lo",
+				"Git: Log Current File"
+			],
+			[
+				"Git: S",
+				"Git: Status"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/layouts/footer.jade",
+		"/Users/sanjaypojo/Developer/Den/papyrus/package.json",
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/styles/style.less",
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/styles/post.less",
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/styles/home.less",
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/layouts/post.jade",
+		"/Users/sanjaypojo/Developer/Den/papyrus/toDo.md",
+		"/Users/sanjaypojo/Developer/Den/papyrus/content/setting-up-my-mac-for-development-1.md",
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/styles/markdown.less",
+		"/Users/sanjaypojo/Developer/Den/papyrus/app/index.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/app/admin.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/content/brew-postgresql-version-of-choice-on-a-mac.md",
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/styles/typography.less",
+		"/Users/sanjaypojo/Developer/Den/papyrus/app.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/content/postgres-cheat-sheet.md",
+		"/Users/sanjaypojo/Developer/Den/librarium/styles/mixins.less",
+		"/Users/sanjaypojo/Developer/Den/librarium/styles/components.less",
+		"/Users/sanjaypojo/Developer/Den/librarium/nodeScripts/security.coffee",
+		"/Users/sanjaypojo/Developer/Den/librarium/clientSideScripts/components.coffee",
+		"/Users/sanjaypojo/Developer/Den/librarium/nodeScripts/index.coffee",
+		"/Users/sanjaypojo/Developer/Den/librarium/nodeScripts/renderJade.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/content/index.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/layouts/home.jade",
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/layouts/admin.jade",
+		"/Users/sanjaypojo/Developer/Den/papyrus/app/renderJade.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/content/setting-up-my-web-server-on-a-cubietruck.md",
+		"/Users/sanjaypojo/Developer/Den/papyrus/gulpfile.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/app/renderMarkdown.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/app/router404.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/app/router.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/app/security.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/content/macbook-pro-retina-2012.md",
+		"/Users/sanjaypojo/Developer/Den/librarium/README.md",
+		"/Users/sanjaypojo/Developer/Den/papyrus/content/terminal-quick-tips-for-mac.md",
+		"/Users/sanjaypojo/Developer/Den/papyrus/content/sample.md",
+		"/Users/sanjaypojo/Library/Application Support/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/sanjaypojo/Library/Application Support/Sublime Text 3/Packages/User/Bold and Italic Markers.tmPreferences",
+		"/Users/sanjaypojo/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/sanjaypojo/Developer/Den/papyrus/content/terminal-quick-tips-for-mac.jade",
+		"/Users/sanjaypojo/Dropbox/Sublime Settings/Packages/User/sDarkside.tmTheme",
+		"/Users/sanjaypojo/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+		"/Users/sanjaypojo/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
+		"/Users/sanjaypojo/Dropbox/Sublime Settings/Packages/User/sJade.tmLanguage",
+		"/Users/sanjaypojo/Library/Application Support/Sublime Text 3/Packages/Jade/Syntaxes/Jade.tmLanguage",
+		"/Users/sanjaypojo/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/sanjaypojo/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/sanjaypojo/Dropbox/Sublime Settings/Packages/User/Darkside (SL).tmTheme",
+		"/Users/sanjaypojo/Developer/Den/papyrus/.gitignore",
+		"/Users/sanjaypojo/Developer/Den/librarium/styles/pojoaque.css",
+		"/Users/sanjaypojo/Developer/Den/papyrus/theme/styles/admin.less",
+		"/Users/sanjaypojo/Developer/Den/papyrus/static/css/style.css",
+		"/Users/sanjaypojo/Developer/Den/librarium/nodeScripts/router.coffee",
+		"/Users/sanjaypojo/Developer/Den/librarium/nodeScripts/router404.coffee",
+		"/Users/sanjaypojo/Developer/Den/librarium/gulpfiles/gulpfile.coffee",
+		"/Users/sanjaypojo/Developer/Den/papyrus/papyrus.sublime-project",
+		"/Users/sanjaypojo/Developer/Den/papyrus/readMe.md",
+		"/Users/sanjaypojo/Developer/Den/papyrus/,",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/markup/404.jade",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/markup/home.jade",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/markup/layout/nav.jade",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/app/renderJade.coffee",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/styles/main.less",
+		"/Users/sanjaypojo/.bash_profile",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/styles/resume.less",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/app.coffee",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/package.json",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/bower.json",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/.gitignore",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/layout/nav.jade",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/styles/components.less",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/styles/style.less",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/public/style.css",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/styles/mixins.less",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/content/resume.jade",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/README.md",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/content/404.jade",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/content/home.jade",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/layout/head.jade",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/layout/footer.jade",
+		"/Users/sanjaypojo/Developer/Den/mezzanine/app/router.coffee",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/styles/style.less",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/styles/components.less",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/styles/main.less",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/styles/mixins.less",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/.gitignore",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/gulpfile.coffee",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/styles/style.css",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/package.json",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/layout/head.jade",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/app/renderJade.coffee",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/layout/nav.jade",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/layout/header.jade",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/layout/footer.jade",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/markup",
+		"/Users/sanjaypojo/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/sanjaypojo/Developer/Projects/Den/mezzanine/mezzanine.sublime-project",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/styles/login.less",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/styles/layout.less",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/styles/dashboard.less",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/styles/components.less",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/login.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/gulpfile.coffee",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/app/mongodb.conf",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/templates/head.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/styles/results.less",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/app/renderJade.coffee",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/app/database.coffee",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/dashboard.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/results.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/app/dataHandling.coffee",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/styles/questions.less",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/package.json",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/styles/style.less",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/boilerQuestions.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/companyQuestions.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/app.coffee",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/styles/mixins.less",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/app/security.coffee",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/404.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/static/login.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/static/questions.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/static/404.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/distro/app/router.js",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/readMe.md",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/templates/header.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/templates/content.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/markup/templates/nav.jade",
+		"/Users/sanjaypojo/Developer/Projects/Softrade/Aroha/Forks/enerji/enerji/src/styles/normalize.less"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"@leading",
+			"h1",
+			"#####",
+			"’",
+			"–",
+			"”",
+			"“",
+			"’",
+			"posts",
+			":",
+			"//",
+			"##",
+			"/",
+			"h4",
+			"startDate",
+			"event:",
+			"event",
+			"item",
+			"organisation",
+			"{\"o",
+			"event",
+			"{\"",
+			"},",
+			"{",
+			"	",
+			"where",
+			"},{",
+			",",
+			"}",
+			"event",
+			"express",
+			"LPG",
+			"HSD",
+			"Channel",
+			"\"fuel\"",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Fuel",
+			"fuel",
+			"Savings",
+			"HSD",
+			"-12",
+			"World",
+			"app",
+			"input#",
+			"boiler",
+			"for=\"",
+			"#ans",
+			"placeholder",
+			"input#",
+			".label-wrapper",
+			"in  ",
+			"in",
+			"label",
+			"/",
+			".input-group",
+			"(class=\"",
+			"renderJade",
+			"templates",
+			"answer1",
+			"clearfix",
+			"src.static",
+			"src.p",
+			"sys",
+			"'",
+			"path",
+			"sm",
+			"trans",
+			"top",
+			"bottom",
+			"screen",
+			"@grid",
+			"jade",
+			"static",
+			"code",
+			"static",
+			"{",
+			"});",
+			"function() {",
+			"//",
+			"var",
+			"dist",
+			"public",
+			";\n",
+			"sublime",
+			"&:extend"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 588.0
+	},
+	"project": "twiddleSite.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"styl",
+				"papyrus/theme/styles/style.less"
+			],
+			[
+				"home",
+				"papyrus/theme/layouts/home.jade"
+			],
+			[
+				"pa",
+				"papyrus/package.json"
+			],
+			[
+				"typo",
+				"papyrus/theme/styles/typography.less"
+			],
+			[
+				"inde",
+				"papyrus/content/index.coffee"
+			],
+			[
+				"postg",
+				"papyrus/content/brew-postgresql-version-of-choice-on-a-mac.md"
+			],
+			[
+				"less",
+				"papyrus/theme/styles/typography.less"
+			],
+			[
+				"",
+				"papyrus/app.coffee"
+			],
+			[
+				"md",
+				"papyrus/content/setting-up-my-mac-for-development-1.md"
+			],
+			[
+				"hoem",
+				"papyrus/theme/layouts/home.jade"
+			],
+			[
+				"jade",
+				"papyrus/theme/layouts/post.jade"
+			],
+			[
+				"cubi",
+				"papyrus/content/setting-up-my-web-server-on-a-cubietruck.md"
+			],
+			[
+				"app",
+				"papyrus/app/renderMarkdown.coffee"
+			],
+			[
+				"sty",
+				"papyrus/theme/styles/style.less"
+			],
+			[
+				"sett",
+				"papyrus/content/setting-up-my-mac-for-development-1.md"
+			],
+			[
+				"mark",
+				"papyrus/theme/styles/markdown.less"
+			],
+			[
+				"render",
+				"papyrus/app/renderMarkdown.coffee"
+			],
+			[
+				"post",
+				"papyrus/theme/layouts/post.jade"
+			],
+			[
+				"st",
+				"papyrus/theme/styles/style.less"
+			],
+			[
+				"router",
+				"papyrus/app/router404.coffee"
+			],
+			[
+				"rend",
+				"papyrus/app/renderMarkdown.coffee"
+			],
+			[
+				"term",
+				"papyrus/content/terminal-quick-tips-for-mac.md"
+			],
+			[
+				"-",
+				"papyrus/content/terminal-quick-tips-for-mac.jade"
+			],
+			[
+				"sampl",
+				"papyrus/content/sample.md"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"sec",
+				"app/security.coffee"
+			],
+			[
+				"rout",
+				"app/router404.coffee"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"bowe",
+				"~/Developer/Den/mezzanine/bower.json"
+			],
+			[
+				"main",
+				"styles/main.less"
+			],
+			[
+				"res",
+				"styles/resume.less"
+			],
+			[
+				".json",
+				"package.json"
+			],
+			[
+				"route",
+				"app/router.coffee"
+			],
+			[
+				"nav",
+				"layout/nav.jade"
+			],
+			[
+				"compon",
+				"styles/components.less"
+			],
+			[
+				"mxin",
+				"styles/mixins.less"
+			],
+			[
+				"mixin",
+				"styles/mixins.less"
+			],
+			[
+				"404",
+				"content/404.jade"
+			],
+			[
+				"foot",
+				"layout/footer.jade"
+			],
+			[
+				"s",
+				"public/style.css"
+			],
+			[
+				"head",
+				"layout/head.jade"
+			],
+			[
+				"gulp",
+				"gulpfile.coffee"
+			],
+			[
+				"compn",
+				"src/styles/components.less"
+			],
+			[
+				"resul",
+				"src/markup/results.jade"
+			],
+			[
+				"fuel",
+				"src/markup/fuelQuestions.jade"
+			],
+			[
+				"data",
+				"src/app/dataHandling.coffee"
+			],
+			[
+				"lessq",
+				"src/styles/questions.less"
+			],
+			[
+				"lpg",
+				"src/markup/lpgQuestions.jade"
+			],
+			[
+				"login",
+				"src/styles/login.less"
+			],
+			[
+				"rou",
+				"src/app/router.coffee"
+			],
+			[
+				"question",
+				"src/styles/questions.less"
+			],
+			[
+				"lo",
+				"src/markup/login.jade"
+			],
+			[
+				"log",
+				"src/styles/login.less"
+			],
+			[
+				"styles",
+				"src/styles/style.less"
+			],
+			[
+				"content",
+				"src/markup/templates/content.jade"
+			],
+			[
+				"conten",
+				"src/markup/templates/content.jade"
+			],
+			[
+				"heade",
+				"src/markup/templates/header.jade"
+			],
+			[
+				"header",
+				"src/markup/templates/header.jade"
+			],
+			[
+				"layou",
+				"src/markup/templates/layout.jade"
+			],
+			[
+				"lojad",
+				"src/markup/login.jade"
+			],
+			[
+				"compo",
+				"src/styles/components.less"
+			],
+			[
+				"globa",
+				"src/styles/global.less"
+			],
+			[
+				"conte",
+				"src/styles/content.less"
+			],
+			[
+				"glb",
+				"src/styles/global.less"
+			],
+			[
+				"glob",
+				"src/styles/global.less"
+			],
+			[
+				"contn",
+				"src/styles/content.less"
+			],
+			[
+				"stl",
+				"src/styles/style.less"
+			],
+			[
+				"style",
+				"src/styles/style.less"
+			],
+			[
+				"mixi",
+				"src/styles/mixins.less"
+			],
+			[
+				"styleles",
+				"src/styles/style.less"
+			],
+			[
+				"global",
+				"src/styles/global.less"
+			],
+			[
+				"font",
+				"src/styles/fonts.less"
+			],
+			[
+				"gul",
+				"gulpfile.coffee"
+			],
+			[
+				"in",
+				"routes/index.coffee"
+			],
+			[
+				"ind",
+				"routes/index.coffee"
+			],
+			[
+				"index",
+				"routes/index.coffee"
+			],
+			[
+				".jade",
+				"views/index.jade"
+			],
+			[
+				"hom",
+				"content/home.md"
+			],
+			[
+				"page",
+				"layout/page.jade"
+			],
+			[
+				"pos",
+				"assets/less/bootstrap/pagination.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Developer/Softrade/enerji/enerji/enerji.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
