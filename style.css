@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato|Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Lato|Lustria);
 * {
   box-sizing: border-box;
 }
@@ -6,7 +6,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Varela Round', serif;
+  font-family: 'Lustria', serif;
   color: #339966;
 }
 h1 {
@@ -53,6 +53,7 @@ body main section {
   padding: 3rem 5%;
   margin: 0 auto;
   border-bottom: solid rgba(204, 204, 204, 0.5) 1px;
+  max-width: 1200px;
 }
 body main section img {
   vertical-align: middle;
