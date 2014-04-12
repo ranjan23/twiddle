@@ -1,47 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Varela+Round);
 * {
   box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Varela Round', serif;
+  color: #339966;
+}
+h1 {
+  font-size: 5.0rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  font-size: 20px;
 }
 body {
   margin: 0;
   padding: 0;
 }
 body nav {
+  position: fixed;
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem 0;
   width: 100%;
-  height: 2rem;
-  background-color: #333;
+  background-color: rgba(51, 153, 102, 0.8);
 }
 body nav a {
   text-decoration: none;
-  color: #33aa88;
+  color: #ddd;
   padding: 0.5rem 2rem;
+}
+body nav a:hover {
+  color: white;
 }
 body header {
   margin: 0;
-  padding: 2rem;
-  background-color: #eee;
+  padding: 2rem 1rem 1rem 1rem;
+  background-color: #336699;
 }
 body header h1 {
-  font-size: 5rem;
+  color: white;
   text-align: center;
 }
 body main section {
-  height: 80%;
-  width: 80%;
-  margin: 20% auto;
+  padding: 3rem 5%;
+  margin: 0 auto;
   border-bottom: solid rgba(204, 204, 204, 0.5) 1px;
 }
 body main section img {
-  height: 50%;
+  vertical-align: middle;
+  height: auto;
+  width: 30%;
 }
 body main section .story {
-  padding: 20% 0;
-}
-.right {
-  float: right;
-}
-.left {
-  float: left;
+  display: inline-block;
+  width: 60%;
+  padding: 0 5%;
+  vertical-align: middle;
+  text-align: center;
 }
