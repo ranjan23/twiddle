@@ -10,21 +10,48 @@ html
     header
       h1 Twiddly
     main
-      section
-        img(src="http://www.okilla.com/uploadfile/1/2013/09/22/11379861603/1379865119_htc-one-preview.png", alt="")
+      section#app
         .story
-          h2 Discover great content, everytime you switch on your phone
-          p No more launching 5 different apps just to find something interesting to snack on. Twiddly finds great content from across the web and puts it right on your lockscreen.
-      section
+          img(src="http://www.okilla.com/uploadfile/1/2013/09/22/11379861603/1379865119_htc-one-preview.png", alt="")
+          .caption
+            h2 Discover great content, everytime you switch on your phone
+            p No more launching 5 different apps just to find something interesting to snack on. Twiddly finds great content from across the web and puts it right on your lockscreen.
         .story
-          h2 Choose from a list of thoughtfully curated themes
-          p Whether you love catching up on scientific discoveries or cool new gadgets or learning about the human mind or just enjoy watching funny videos, there's always something for everyone!
-        img(src="http://www.okilla.com/uploadfile/1/2013/09/22/11379861603/1379865119_htc-one-preview.png", alt="")
-      section
-        img(src="http://www.okilla.com/uploadfile/1/2013/09/22/11379861603/1379865119_htc-one-preview.png", alt="")
+          .caption
+            h2 Choose from a list of thoughtfully curated themes
+            p Whether you love catching up on scientific discoveries or cool new gadgets or learning about the human mind or just enjoy watching funny videos, there's always something for everyone!
+          img(src="http://www.okilla.com/uploadfile/1/2013/09/22/11379861603/1379865119_htc-one-preview.png", alt="")
         .story
-          h2 Discover something interesting and consume it right off the lockscreen
-          p No more unlocking the phone, launching apps, waiting for them to load and then consuming content. When you find something that catches your fancy, just tap on it and enjoy it right off the lockscreen. With Twiddly, its content first!
+          img(src="http://www.okilla.com/uploadfile/1/2013/09/22/11379861603/1379865119_htc-one-preview.png", alt="")
+          .caption
+            h2 Discover something interesting and consume it right off the lockscreen
+            p No more unlocking the phone, launching apps, waiting for them to load and then consuming content. When you find something that catches your fancy, just tap on it and enjoy it right off the lockscreen. With Twiddly, its content first!
+      section#founders
+        .section-title
+          h1 The Founders
+        .story
+          img(src="http://farm7.static.flickr.com/6091/6299474915_b9e5255cba_m.jpg", alt="")
+          .caption
+            h2 Ranjan Jagannathan
+            p Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+        .story
+          .caption
+            h2 Sanjay Guruprasad
+            p Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
+          img(src="http://farm7.static.flickr.com/6091/6299474915_b9e5255cba_m.jpg", alt="")
+      section#signup-form
+        .section-title
+          h1 Sign Up!
+        form(id="signup", method="POST", action="https://docs.google.com/forms/d/1dv0Ow2ik-zTlLn3y6qdMje04sjUypou5P16F1r4pb7I/formResponse")
+          select(name="entry.1200618361", id="entry_1200618361", placeholder="Choose Phone", required)
+            option(default) Which phone do you own?
+            option iPhone
+            option Windows
+            option Other
+            option Android
+          input(name="entry.1422492071", id="entry_1422492071", placeholder="Email address", required)
+          button(type="submit", name="submit", value="Submit") Sign up for a sneak peak!
+
   footer
 
 

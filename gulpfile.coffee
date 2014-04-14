@@ -3,7 +3,7 @@ jade = require 'gulp-jade'
 less = require 'gulp-less'
 
 gulp.task 'generateHtml', ()->
-  gulp.src 'src/index.jade'
+  gulp.src 'src/*.jade'
     .pipe jade()
     .pipe gulp.dest('./')
 

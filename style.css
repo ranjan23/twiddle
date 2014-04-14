@@ -15,6 +15,9 @@ h1 {
 h2 {
   font-size: 1.5rem;
 }
+h3 {
+  font-size: 1.2rem;
+}
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
@@ -25,6 +28,7 @@ body {
   padding: 0;
 }
 body nav {
+  display: none;
   position: fixed;
   text-align: center;
   margin: 0;
@@ -42,28 +46,93 @@ body nav a:hover {
 }
 body header {
   margin: 0;
-  padding: 2rem 1rem 1rem 1rem;
-  background-color: #336699;
+  padding: 1rem 0;
 }
 body header h1 {
-  color: white;
+  color: #336699;
   text-align: center;
 }
-body main section {
-  padding: 3rem 5%;
+body main section .section-title {
+  padding: 0.5rem 5%;
   margin: 0 auto;
-  border-bottom: solid rgba(204, 204, 204, 0.5) 1px;
   max-width: 1200px;
-}
-body main section img {
-  vertical-align: middle;
-  height: auto;
-  width: 30%;
+  text-align: center;
 }
 body main section .story {
+  padding: 3rem 5%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+body main section .story .caption {
   display: inline-block;
   width: 60%;
   padding: 0 5%;
   vertical-align: middle;
   text-align: center;
+}
+body main section#app .story {
+  border-bottom: solid rgba(204, 204, 204, 0.5) 1px;
+}
+body main section#app .story img {
+  vertical-align: middle;
+  height: auto;
+  width: 30%;
+}
+body main section#founders {
+  background-color: #222;
+  color: #ccc;
+}
+body main section#founders .story {
+  border-bottom: solid rgba(17, 17, 17, 0.5) 1px;
+}
+body main section#founders .story img {
+  vertical-align: middle;
+  height: auto;
+  width: 20%;
+  margin: 0 5%;
+  border-radius: 100%;
+  border: 20px solid #111;
+}
+body main section#signup-form .section-title h1 {
+  color: #336699;
+}
+body main section#signup-form form {
+  margin: 0 auto;
+  padding: 0 5%;
+  padding-bottom: 3rem;
+  text-align: center;
+  max-width: 1200px;
+}
+body main section#signup-form form label {
+  font-size: 1.2rem;
+  margin: 0.5em 0 0.2em;
+}
+body main section#signup-form form input {
+  width: 30%;
+  margin: 0 5%;
+  font-size: 1.2rem;
+  padding: 0.5em 0.6em;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+}
+body main section#signup-form form select {
+  width: 30%;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.6rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+}
+body main section#signup-form form button {
+  width: 30%;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0.5rem 0.6rem;
+  display: inline-block;
+  border: 1px solid #339966;
+  background-color: #339966;
+  border-radius: 4px;
 }
