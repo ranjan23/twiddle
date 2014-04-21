@@ -201,12 +201,8 @@ section .section-title {
   max-width: 1200px;
   text-align: center;
 }
-section .section-title h2 {
-  margin: 0;
-  padding: 0;
-}
 section .story {
-  padding: 3rem 1%;
+  padding: 1rem 1%;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -218,20 +214,96 @@ section .story .caption {
   text-align: center;
 }
 section#home {
+  background: url('images/bgHome.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: right;
+}
+section#home header {
+  padding: 2rem 2rem;
+  text-align: right;
+}
+section#home header h1 {
+  color: #ccc;
+}
+section#home .caption {
+  text-align: center;
+  display: inline-block;
+}
+section#home .caption h3 {
+  margin: 0 0.5rem;
+  color: #ccc;
+}
+section#story2 {
+  background: url('images/bgCurated.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section#story2 .story {
+  text-align: center;
+  max-width: 700px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -350px;
+}
+section#story2 .story h2 {
+  color: #ccc;
+  vertical-align: middle;
+}
+section#story2 .story .caption {
+  color: #ccc;
+  width: 100%;
+}
+section#story1 {
   background: url('images/bg2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-section#home header {
+section#story1 .story {
+  text-align: center;
+  max-width: 700px;
   position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-  padding: 0 1rem;
+  top: 0%;
+  left: 50%;
+  margin-left: -350px;
 }
-section#home header h1 {
+section#story1 .story h2 {
   color: #ccc;
+  vertical-align: middle;
+}
+section#story1 .story .caption {
+  color: #ccc;
+  width: 100%;
+}
+section#story3 {
+  background: url('images/bgSnack.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section#story3 .story {
+  text-align: center;
+  max-width: 700px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -350px;
+}
+section#story3 .story h2 {
+  color: #ccc;
+  vertical-align: middle;
+}
+section#story3 .story .caption {
+  color: #ccc;
+  width: 100%;
 }
 section#founders {
   background-color: #222;
