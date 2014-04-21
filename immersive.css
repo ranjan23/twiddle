@@ -222,18 +222,20 @@ section#home {
   text-align: right;
 }
 section#home header {
-  padding: 2rem 2rem;
-  text-align: right;
+  margin-left: 65%;
+  padding: 5% 2.5%;
+  width: 30%;
 }
 section#home header h1 {
   color: #ccc;
+  text-align: center;
 }
-section#home .caption {
+section#home header .caption {
   text-align: center;
   display: inline-block;
 }
-section#home .caption h3 {
-  margin: 0 0.5rem;
+section#home header .caption h3 {
+  margin: 0;
   color: #ccc;
 }
 section#story2 {
