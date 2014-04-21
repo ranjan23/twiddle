@@ -227,7 +227,7 @@ section#home header {
   width: 30%;
 }
 section#home header h1 {
-  color: #ccc;
+  color: #eee;
   text-align: center;
 }
 section#home header .caption {
@@ -236,7 +236,7 @@ section#home header .caption {
 }
 section#home header .caption h3 {
   margin: 0;
-  color: #ccc;
+  color: #eee;
 }
 section#story2 {
   background: url('images/bgCurated.jpg') no-repeat center center fixed;
@@ -254,11 +254,11 @@ section#story2 .story {
   margin-left: -350px;
 }
 section#story2 .story h2 {
-  color: #ccc;
+  color: #eee;
   vertical-align: middle;
 }
 section#story2 .story .caption {
-  color: #ccc;
+  color: #eee;
   width: 100%;
 }
 section#story1 {
@@ -277,11 +277,11 @@ section#story1 .story {
   margin-left: -350px;
 }
 section#story1 .story h2 {
-  color: #ccc;
+  color: #eee;
   vertical-align: middle;
 }
 section#story1 .story .caption {
-  color: #ccc;
+  color: #eee;
   width: 100%;
 }
 section#story3 {
@@ -300,16 +300,16 @@ section#story3 .story {
   margin-left: -350px;
 }
 section#story3 .story h2 {
-  color: #ccc;
+  color: #eee;
   vertical-align: middle;
 }
 section#story3 .story .caption {
-  color: #ccc;
+  color: #eee;
   width: 100%;
 }
 section#founders {
   background-color: #222;
-  color: #ccc;
+  color: #eee;
 }
 section#founders .story img {
   vertical-align: middle;
