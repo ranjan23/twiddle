@@ -1,0 +1,29 @@
+{
+  "name": "twiddlySite",
+  "version": "0.1.0",
+  "description": "Twiddly's website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twiddleapp/twiddly.git"
+  },
+  "author": "sanjaypojo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twiddleapp/twiddly/issues"
+  },
+  "homepage": "https://github.com/twiddleapp/twiddly",
+  "devDependencies": {
+    "gulp": "~3.6.1",
+    "gulp-rename": "~1.2.0",
+    "gulp-less": "~1.2.3",
+    "gulp-jade": "~0.5.0",
+    "gulp-imagemin": "~0.2.0"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}

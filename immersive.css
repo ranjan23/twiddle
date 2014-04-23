@@ -247,11 +247,11 @@ section#story2 {
 }
 section#story2 .story {
   text-align: center;
-  max-width: 800px;
+  max-width: 1000px;
   position: absolute;
   top: 20%;
   left: 50%;
-  margin-left: -400px;
+  margin-left: -500px;
 }
 section#story2 .story h2 {
   color: #eee;
@@ -270,11 +270,11 @@ section#story1 {
 }
 section#story1 .story {
   text-align: center;
-  max-width: 800px;
+  max-width: 1000px;
   position: absolute;
   top: 0%;
   left: 50%;
-  margin-left: -400px;
+  margin-left: -500px;
 }
 section#story1 .story h2 {
   color: #eee;
@@ -293,11 +293,11 @@ section#story3 {
 }
 section#story3 .story {
   text-align: center;
-  max-width: 800px;
+  max-width: 1000px;
   position: absolute;
   top: 20%;
   left: 50%;
-  margin-left: -400px;
+  margin-left: -500px;
 }
 section#story3 .story h2 {
   color: #eee;

@@ -4,7 +4,10 @@
 		{
 			"file_exclude_patterns":
 			[
-				"twiddleSite.sublime-project"
+				"twiddleSite.sublime-project",
+				".gitignore",
+				"CNAME",
+				"twiddlySite.sublime-project"
 			],
 			"folder_exclude_patterns":
 			[
