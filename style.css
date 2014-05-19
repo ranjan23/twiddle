@@ -1,100 +1,179 @@
-@import url(http://fonts.googleapis.com/css?family=Lato|Lustria);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 * {
   box-sizing: border-box;
 }
 h1,
 h2,
 h3,
-h4 {
-  font-family: 'Lustria', serif;
-  color: #339966;
-}
-h1 {
-  font-size: 5.0rem;
-}
-h2 {
-  font-size: 1.5rem;
-}
-h3 {
-  font-size: 1.2rem;
-}
-body {
-  font-family: 'Lato', sans-serif;
-  color: #333;
-  font-size: 20px;
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
 }
 body {
   margin: 0;
   padding: 0;
-}
-body nav {
-  display: none;
-  position: fixed;
-  text-align: center;
-  margin: 0;
-  padding: 0.5rem 0;
-  width: 100%;
-  background-color: rgba(51, 153, 102, 0.8);
-}
-body nav a {
-  text-decoration: none;
-  color: #ddd;
-  padding: 0.5rem 2rem;
-}
-body nav a:hover {
-  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #7f8795;
 }
 body header {
-  margin: 0;
-  padding: 1rem 0;
+  position: fixed;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
-body header h1 {
-  color: #336699;
-  text-align: center;
+body header img {
+  height: 2rem;
+}
+body main section {
+  zoom: 1;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #339966;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+body main section:before,
+body main section:after {
+  content: "";
+  display: table;
+}
+body main section:after {
+  clear: both;
 }
 body main section .section-title {
-  padding: 0.5rem 5%;
-  margin: 0 auto;
-  max-width: 1200px;
+  position: absolute;
+  top: 0;
+  width: 100%;
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+body main section .section-title h4 {
+  margin: 0;
+  padding: 1rem 0 0 0;
 }
 body main section .story {
-  padding: 3rem 5%;
-  margin: 0 auto;
-  max-width: 1200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  max-height: 95%;
+}
+body main section .story img {
+  display: none;
 }
 body main section .story .caption {
-  display: inline-block;
-  width: 60%;
+  zoom: 1;
   padding: 0 5%;
-  vertical-align: middle;
+}
+body main section .story .caption:before,
+body main section .story .caption:after {
+  content: "";
+  display: table;
+}
+body main section .story .caption:after {
+  clear: both;
+}
+body main section .story .caption h2 {
+  margin-bottom: 2rem;
+  font-size: 60px;
+  color: #1d2a35;
   text-align: center;
 }
-body main section#app .story {
-  border-bottom: solid rgba(204, 204, 204, 0.5) 1px;
+body main section .story .caption p {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-body main section#app .story img {
-  vertical-align: middle;
-  height: auto;
-  width: 30%;
+body main section#title {
+  background-image: url(images/bgLockscreen.jpg);
+}
+body main section#title .story {
+  background-color: rgba(255, 255, 255, 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+}
+body main section#curated {
+  background-image: url(images/bgCurated.jpg);
+}
+body main section#curated .story {
+  background-color: rgba(255, 255, 255, 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+}
+body main section#lockscreen {
+  background-image: url(images/bg2.jpg);
+}
+body main section#lockscreen .story {
+  background-color: rgba(255, 255, 255, 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+}
+body main section#snacky {
+  background-image: url(images/bgSnack.jpg);
+}
+body main section#snacky .story {
+  background-color: rgba(255, 255, 255, 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
 }
 body main section#founders {
-  background-color: #222;
-  color: #ccc;
+  background-color: #1d2a35;
 }
 body main section#founders .story {
-  border-bottom: solid rgba(17, 17, 17, 0.5) 1px;
+  position: static;
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-body main section#founders .story img {
-  vertical-align: middle;
+body main section#founders .story .container {
+  margin: 0;
+  padding: 0 5%;
+  height: 50%;
+}
+body main section#founders .story .container img {
+  display: inline-block;
   height: auto;
-  width: 20%;
-  margin: 0 5%;
+  width: 25%;
   border-radius: 100%;
-  border: 20px solid #111;
+  border: solid 10px #141d25;
+}
+body main section#founders .story .container .caption {
+  display: inline-block;
+  width: 70%;
+}
+body main section#founders .story .container .caption h3 {
+  font-size: 30px;
+}
+body main section#founders .story .container .caption p {
+  font-size: 20px;
+}
+body main section#signup-form {
+  background-color: white;
+}
+body main section#signup-form .section-title {
+  position: static;
 }
 body main section#signup-form .section-title h1 {
   color: #336699;
+  font-size: 60px;
 }
 body main section#signup-form form {
   margin: 0 auto;
@@ -104,12 +183,12 @@ body main section#signup-form form {
   max-width: 1200px;
 }
 body main section#signup-form form div.info {
-  margin-top: -2rem;
   margin-bottom: 2rem;
 }
 body main section#signup-form form div.info p {
   margin: 0.5rem 0;
   padding: 0;
+  font-size: 30px;
 }
 body main section#signup-form form label {
   font-size: 1.2rem;

@@ -4,41 +4,47 @@ html
     title Twidd.ly
     link(rel="stylesheet", type="text/css", href="style.css")
   body
-    nav
-      a(href="/twiddly") Home
-      a(href="/twiddly/about") About Us
     header
-      h1 Twidd.ly
+      img(src="images/twiddlyLogo.png")
     main
-      section#app
+      section#title
         .story
           img(src="images/phoneLock1.png", alt="")
           .caption
-            h2 Discover great content, everytime you switch on your phone
-            p When you find something that catches your fancy, just tap on it and enjoy it right off the lockscreen.
+            h2 Transcend Boredom
+            p Twiddly brings the best of the web, right to your lockscreen
+      section#curated
         .story
           .caption
-            h2 Choose from our thoughtfully curated themes
-            p Whether you're a science buff or a tech geek or a humor addict, there's always something for everyone.
+            h2 Stories that inspire you
+            p Choose from curated themes to get handpicked stories you'd enjoy.
           img(src="images/phoneThemes.png", alt="")
+      section#lockscreen
         .story
           img(src="images/phoneLock2.png", alt="")
           .caption
-            h2 Bite sized content that packs a punch
-            p Twiddly carefully chooses your content to be no longer than 5 minutes! Whip out your phone and snack away on the articles and videos waiting for you.
+            h2 Dive right in
+            p Read articles, watch videos and browse stories without unlocking your phone.
+      section#snacky
+        .story
+          img(src="images/phoneLock2.png", alt="")
+          .caption
+            h2 Stories that pack a punch
+            p Snack away on stories that are no longer than 5 minutes!
       section#founders
         .section-title
-          h1 The Founders
+          h4 The Founders
         .story
-          img(src="images/ranjan.jpg", alt="")
-          .caption
-            h2 Ranjan Jagannathan
-            p Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-        .story
-          .caption
-            h2 Sanjay Guruprasad
-            p Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus.
-          img(src="images/sanjay.jpg", alt="")
+          .container
+            img(src="images/ranjan.jpg", alt="")
+            .caption
+              h3.right Ranjan Jagannathan
+              p.right Ranjan most recently led customer development, product experiments and analytics for a 500 Startups company, Mygola. Before Mygola, Ranjan was an innovation program manager with Yahoo! India where he designed and ran large scale innovation programs. Ranjan has a degree in Mechanical Engineering and is an alum of Stanford Ignite, an academic program on entrepreneurship by Stanford Graduate School of Business.
+          .container
+            .caption
+              h3.left Sanjay Guruprasad
+              p.left Sanjay graduated from IIT Madras in 2012 where he was awarded the Institute Blues for his wide ranging pursuits on campus. He worked at an iBank for a year, but decided to return to Bangalore to chase his startup dream. He worked as a full stack developer at MagnetWorks, developing an alerts system for the iOT startup. He headed 'Enerji', a NodeJS project at Softrade that helps factories move to cleaner fuels. He loves NodeJS, iOS and is very into minimalism.
+            img(src="images/sanjay.jpg", alt="")
       section#signup-form
         .section-title
           h1 Sign Up!
