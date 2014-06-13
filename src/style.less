@@ -7,15 +7,6 @@
   &:after{ clear: both; }
 }
 
-.gradient (@startColor: #eee, @endColor: white) {
-  background-color: @startColor;
-  background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
-  background: -webkit-linear-gradient(top, @startColor, @endColor);
-  background: -moz-linear-gradient(top, @startColor, @endColor);
-  background: -ms-linear-gradient(top, @startColor, @endColor);
-  background: -o-linear-gradient(top, @startColor, @endColor);
-}
-
 .left() { text-align: left; }
 .right() { text-align: right; }
 .center() { text-align: center; }
@@ -24,10 +15,12 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 // Colours
-@brand-blue: #336699;
+@brand-blue: #3c96c8;
+@brand-blue-dark: #016496;
 @brand-green: #339966;
 @brand-black: #1d2a35;
 @brand-gray: #7f8795;
+@brand-white: #fff;
 
 // Page Styling
 h1, h2, h3, h4, h5, h6 { font-family:  "Open Sans", sans-serif; }
@@ -37,15 +30,8 @@ body {
   padding: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  color: @brand-gray;
-  header {
-    position: fixed;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    img{
-      height: 2rem;
-    }
-  }
+  color: @brand-white;
+  min-width: 400px;
 
   main {
     section {
@@ -54,97 +40,148 @@ body {
       position: relative;
       margin: 0;
       padding: 0;
-      background-color: @brand-green;
-      background-position: cover;
+      background-color: @brand-black;
+      background-size: cover;
       background-repeat: no-repeat;
-      .section-title {
+      background-position: left;
+      .header {
         position: absolute;
+        margin: 0.5rem;
+        padding: 0.5rem;
         top: 0;
-        width: 100%;
-        text-align: center;
-        margin:0;
-        padding:0;
-        h4 {
-          margin: 0;
-          padding: 1rem 0 0 0;
+        left: 0;
+        z-index: 100;
+        img{
+          height: 3.5rem;
         }
       }
+      .section-title {
+        width: 100%;
+        text-align: center;
+      }
+
       .story {
         width: 100%;
         position: absolute;
         bottom: 0;
-        padding-top: 10%;
-        padding-bottom: 5%;
-        max-height: 95%;
+        height: 100%;
+        padding-top: 3.5rem;
+        text-align: center;
+        &:before {
+          content: '';
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+          margin-right: -0.25em;
+        }
         img {
-          display: none;
+          display: inline-block;
+          vertical-align: middle;
+          max-width: 40%;
+          max-height: 100%;
+          padding: 5%;
+        }
+        .mobile-caption {
+          display:none;
         }
         .caption {
           .clearfix;
-          padding: 0 5%;
+          max-width: 400px;
+          width: 60%;
+          vertical-align: middle;
+          display: inline-block;
           h2 {
-            margin-bottom: 2rem;
-            font-size: 60px;
-            color: @brand-black;
-            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 30px;
           }
           p {
-            font-size: 30px;
-            text-align: center;
+            font-size: 20px;
             margin:0;
             padding:0;
+          }
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .story {
+          &:before {
+            display: none;
+          }
+          img {
+            max-width: 80%;
+            max-height: 60%;
+            margin: 3%;
+            margin-top: 10%;
+            padding:0;
+          }
+          .caption {
+            display: none;
+          }
+          .mobile-caption {
+            .clearfix;
+            margin: 3%;
+            padding:0;
+            display: inline-block;
           }
         }
       }
     }
 
     section#title {
-      background-image: url(images/bgLockscreen.jpg);
-      .story { .gradient(rgba(255,255,255,0.0), rgba(255,255,255,1)); }
+      background-image: url(images/lockFenceBG.jpg);
+      .story {
+        color: @brand-black;
+      }
     }
 
     section#curated {
-      background-image: url(images/bgCurated.jpg);
-      .story { .gradient(rgba(255,255,255,0.0), rgba(255,255,255,1)); }
+      background-image: url(images/curatedBG.jpg);
     }
 
     section#lockscreen {
       background-image: url(images/bg2.jpg);
-      .story { .gradient(rgba(255,255,255,0.0), rgba(255,255,255,1)); }
     }
 
     section#snacky {
-      background-image: url(images/bgSnack.jpg);
-      .story { .gradient(rgba(255,255,255,0.0), rgba(255,255,255,1)); }
+      background-image: url(images/mainBG.jpg);
     }
 
     section#founders {
-      background-color: @brand-black;
+      background-color: @brand-blue-dark;
       .story {
-        position: static;
-        margin: 0;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        color: @brand-white;
+        padding-top: 5rem;
+        &:before {
+          display:none;
+        }
         .container {
           margin: 0;
-          padding: 0 5%;
-          height: 50%;
+          padding: 1rem;
+          max-height: 30%;
+          display: inline-block;
           img {
+            padding:0;
             display: inline-block;
             height: auto;
-            width: 25%;
+            width: 150px;
             border-radius: 100%;
-            border: solid 10px darken(@brand-black, 5%);
+            border: solid 10px darken(@brand-blue-dark, 12%);
           }
           .caption {
             display: inline-block;
-            width: 70%;
+            width: 85%;
+            max-width: 600px;
+            padding-left: 2rem;
+            text-align: left;
+            font-size: 16px;
+            line-height: 24px;
             h3 {
-              font-size: 30px;
+              font-size: 22px;
+              display: inline;
             }
-            p {
-              font-size: 20px;
-            }
+          }
+          @media only screen and (max-width: 700px) {
+            .caption { display: none; }
           }
         }
       }
@@ -155,7 +192,7 @@ body {
       .section-title {
         position: static;
         h1 {
-          color: @brand-blue;
+          color: @brand-blue-dark;
           font-size: 60px;
         }
       }

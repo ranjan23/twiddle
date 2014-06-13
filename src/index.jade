@@ -4,48 +4,61 @@ html
     title Twidd.ly
     link(rel="stylesheet", type="text/css", href="style.css")
   body
-    header
-      img(src="images/twiddlyLogo.png")
     main
       section#title
+        .header
+          img(src="images/twiddlyWatermarkBlue.png")
         .story
-          img(src="images/phoneLock1.png", alt="")
           .caption
             h2 Transcend Boredom
             p Twiddly brings the best of the web, right to your lockscreen
+          img(src="images/lockFencePhone.png", alt="")
+          .mobile-caption
+            h2 Transcend Boredom
+            p Twiddly brings the best of the web, right to your lockscreen
       section#curated
+        .header
+          img(src="images/twiddlyWatermark.png")
         .story
+          img(src="images/themeChooser.png", alt="")
           .caption
             h2 Stories that inspire you
             p Choose from curated themes to get handpicked stories you'd enjoy.
-          img(src="images/phoneThemes.png", alt="")
+          .mobile-caption
+            h2 Stories that inspire you
+            p Choose from curated themes to get handpicked stories you'd enjoy.
       section#lockscreen
+        .header
+          img(src="images/twiddlyWatermark.png")
         .story
-          img(src="images/phoneLock2.png", alt="")
           .caption
             h2 Dive right in
             p Read articles, watch videos and browse stories without unlocking your phone.
       section#snacky
+        .header
+          img(src="images/twiddlyWatermarkBlue.png")
         .story
-          img(src="images/phoneLock2.png", alt="")
+          img(src="images/barkContentPhone.png", alt="")
           .caption
             h2 Stories that pack a punch
             p Snack away on stories that are no longer than 5 minutes!
       section#founders
+        .header
+          img(src="images/twiddlyWatermark.png")
         .section-title
-          h4 The Founders
+          h2 The Team
         .story
           .container
             img(src="images/ranjan.jpg", alt="")
             .caption
-              h3.right Ranjan Jagannathan
-              p.right Ranjan most recently led customer development, product experiments and analytics for a 500 Startups company, Mygola. Before Mygola, Ranjan was an innovation program manager with Yahoo! India where he designed and ran large scale innovation programs. Ranjan has a degree in Mechanical Engineering and is an alum of Stanford Ignite, an academic program on entrepreneurship by Stanford Graduate School of Business.
+              | <h3>Ranjan Jagannathan</h3> is a Stanford Ignite alum. He led customer development, product experiments and analytics for a 500 Startups company, Mygola. Before that, he was an innovation program manager with Yahoo! India where he designed and ran large scale innovation programs.
           .container
-            .caption
-              h3.left Sanjay Guruprasad
-              p.left Sanjay graduated from IIT Madras in 2012 where he was awarded the Institute Blues for his wide ranging pursuits on campus. He worked at an iBank for a year, but decided to return to Bangalore to chase his startup dream. He worked as a full stack developer at MagnetWorks, developing an alerts system for the iOT startup. He headed 'Enerji', a NodeJS project at Softrade that helps factories move to cleaner fuels. He loves NodeJS, iOS and is very into minimalism.
             img(src="images/sanjay.jpg", alt="")
+            .caption
+              | <h3>Sanjay Guruprasad </h3> is an engineering grad from IIT Madras. He worked at an iBank but quit his job after a year to get back to coding. He developed an alerts system for the iOT startup MagnetWorks. He also headed 'Enerji' at Softrade - a product that helps factories move to cleaner fuels.
       section#signup-form
+        .header
+          img(src="images/twiddlyWatermarkBlue.png")
         .section-title
           h1 Sign Up!
         form(id="signup", method="POST", action="https://docs.google.com/forms/d/1dv0Ow2ik-zTlLn3y6qdMje04sjUypou5P16F1r4pb7I/formResponse")

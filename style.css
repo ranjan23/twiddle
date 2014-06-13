@@ -15,15 +15,8 @@ body {
   padding: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  color: #7f8795;
-}
-body header {
-  position: fixed;
-  margin: 0.5rem;
-  padding: 0.5rem;
-}
-body header img {
-  height: 2rem;
+  color: #ffffff;
+  min-width: 400px;
 }
 body main section {
   zoom: 1;
@@ -31,9 +24,10 @@ body main section {
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: #339966;
-  background-position: cover;
+  background-color: #1d2a35;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: left;
 }
 body main section:before,
 body main section:after {
@@ -43,32 +37,52 @@ body main section:after {
 body main section:after {
   clear: both;
 }
-body main section .section-title {
+body main section .header {
   position: absolute;
+  margin: 0.5rem;
+  padding: 0.5rem;
   top: 0;
+  left: 0;
+  z-index: 100;
+}
+body main section .header img {
+  height: 3.5rem;
+}
+body main section .section-title {
   width: 100%;
   text-align: center;
-  margin: 0;
-  padding: 0;
-}
-body main section .section-title h4 {
-  margin: 0;
-  padding: 1rem 0 0 0;
 }
 body main section .story {
   width: 100%;
   position: absolute;
   bottom: 0;
-  padding-top: 10%;
-  padding-bottom: 5%;
-  max-height: 95%;
+  height: 100%;
+  padding-top: 3.5rem;
+  text-align: center;
+}
+body main section .story:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
 }
 body main section .story img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 40%;
+  max-height: 100%;
+  padding: 5%;
+}
+body main section .story .mobile-caption {
   display: none;
 }
 body main section .story .caption {
   zoom: 1;
-  padding: 0 5%;
+  max-width: 400px;
+  width: 60%;
+  vertical-align: middle;
+  display: inline-block;
 }
 body main section .story .caption:before,
 body main section .story .caption:after {
@@ -79,91 +93,99 @@ body main section .story .caption:after {
   clear: both;
 }
 body main section .story .caption h2 {
-  margin-bottom: 2rem;
-  font-size: 60px;
-  color: #1d2a35;
-  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 30px;
 }
 body main section .story .caption p {
-  font-size: 30px;
-  text-align: center;
+  font-size: 20px;
   margin: 0;
   padding: 0;
 }
+@media only screen and (max-width: 500px) {
+  body main section .story:before {
+    display: none;
+  }
+  body main section .story img {
+    max-width: 80%;
+    max-height: 60%;
+    margin: 3%;
+    margin-top: 10%;
+    padding: 0;
+  }
+  body main section .story .caption {
+    display: none;
+  }
+  body main section .story .mobile-caption {
+    zoom: 1;
+    margin: 3%;
+    padding: 0;
+    display: inline-block;
+  }
+  body main section .story .mobile-caption:before,
+  body main section .story .mobile-caption:after {
+    content: "";
+    display: table;
+  }
+  body main section .story .mobile-caption:after {
+    clear: both;
+  }
+}
 body main section#title {
-  background-image: url(images/bgLockscreen.jpg);
+  background-image: url(images/lockFenceBG.jpg);
 }
 body main section#title .story {
-  background-color: rgba(255, 255, 255, 0);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  color: #1d2a35;
 }
 body main section#curated {
-  background-image: url(images/bgCurated.jpg);
-}
-body main section#curated .story {
-  background-color: rgba(255, 255, 255, 0);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background-image: url(images/curatedBG.jpg);
 }
 body main section#lockscreen {
   background-image: url(images/bg2.jpg);
 }
-body main section#lockscreen .story {
-  background-color: rgba(255, 255, 255, 0);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-}
 body main section#snacky {
-  background-image: url(images/bgSnack.jpg);
-}
-body main section#snacky .story {
-  background-color: rgba(255, 255, 255, 0);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
-  background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background-image: url(images/mainBG.jpg);
 }
 body main section#founders {
-  background-color: #1d2a35;
+  background-color: #016496;
 }
 body main section#founders .story {
-  position: static;
-  margin: 0;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  color: #ffffff;
+  padding-top: 5rem;
+}
+body main section#founders .story:before {
+  display: none;
 }
 body main section#founders .story .container {
   margin: 0;
-  padding: 0 5%;
-  height: 50%;
+  padding: 1rem;
+  max-height: 30%;
+  display: inline-block;
 }
 body main section#founders .story .container img {
+  padding: 0;
   display: inline-block;
   height: auto;
-  width: 25%;
+  width: 150px;
   border-radius: 100%;
-  border: solid 10px #141d25;
+  border: solid 10px #013b59;
 }
 body main section#founders .story .container .caption {
   display: inline-block;
-  width: 70%;
+  width: 85%;
+  max-width: 600px;
+  padding-left: 2rem;
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
 }
 body main section#founders .story .container .caption h3 {
-  font-size: 30px;
+  font-size: 22px;
+  display: inline;
 }
-body main section#founders .story .container .caption p {
-  font-size: 20px;
+@media only screen and (max-width: 700px) {
+  body main section#founders .story .container .caption {
+    display: none;
+  }
 }
 body main section#signup-form {
   background-color: white;
@@ -172,7 +194,7 @@ body main section#signup-form .section-title {
   position: static;
 }
 body main section#signup-form .section-title h1 {
-  color: #336699;
+  color: #016496;
   font-size: 60px;
 }
 body main section#signup-form form {
