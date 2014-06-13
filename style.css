@@ -133,14 +133,11 @@ body main section .story .caption p {
 body main section#title {
   background-image: url(images/lockFenceBG.jpg);
 }
-body main section#title .story {
-  color: #1d2a35;
-}
 body main section#curated {
   background-image: url(images/curatedBG.jpg);
 }
 body main section#lockscreen {
-  background-image: url(images/bg2.jpg);
+  background-image: url(images/nightSkyBG.jpg);
 }
 body main section#snacky {
   background-image: url(images/mainBG.jpg);
