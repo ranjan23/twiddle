@@ -103,7 +103,31 @@ body {
         }
       }
 
-      @media only screen and (max-width: 500px) {
+      @media screen and (device-aspect-ratio: 40/71) {
+        .story {
+          &:before {
+            display: none;
+          }
+          img {
+            max-width: 80%;
+            max-height: 60%;
+            margin: 3%;
+            margin-top: 10%;
+            padding:0;
+          }
+          .caption {
+            display: none;
+          }
+          .mobile-caption {
+            .clearfix;
+            margin: 3%;
+            padding:0;
+            display: inline-block;
+          }
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
         .story {
           &:before {
             display: none;
