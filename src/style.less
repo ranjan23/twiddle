@@ -118,6 +118,11 @@ body {
           .caption {
             display: none;
           }
+          .container {
+            display: block;
+            .caption { display: none; }
+            img { width: 200px; }
+          }
           .mobile-caption {
             .clearfix;
             margin: 3%;
@@ -192,8 +197,9 @@ body {
         .container {
           margin: 0;
           padding: 1rem;
-          max-height: 30%;
-          display: inline-block;
+          max-height: 35%;
+          display: block;
+          overflow: hidden;
           img {
             padding:0;
             display: inline-block;

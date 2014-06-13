@@ -116,6 +116,15 @@ body main section .story .caption p {
   body main section .story .caption {
     display: none;
   }
+  body main section .story .container {
+    display: block;
+  }
+  body main section .story .container .caption {
+    display: none;
+  }
+  body main section .story .container img {
+    width: 200px;
+  }
   body main section .story .mobile-caption {
     zoom: 1;
     margin: 3%;
@@ -198,8 +207,9 @@ body main section#founders .story:before {
 body main section#founders .story .container {
   margin: 0;
   padding: 1rem;
-  max-height: 30%;
-  display: inline-block;
+  max-height: 35%;
+  display: block;
+  overflow: hidden;
 }
 body main section#founders .story .container img {
   padding: 0;
