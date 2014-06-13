@@ -36,6 +36,7 @@ body {
   main {
     section {
       .clearfix;
+      overflow: hidden;
       height: 100%;
       position: relative;
       margin: 0;
@@ -128,7 +129,7 @@ body {
     }
 
     section#title {
-      background-image: url(images/lockFenceBG.jpg);
+      background-image: url(images/forestBG.jpg);
     }
 
     section#curated {
@@ -144,10 +145,23 @@ body {
     }
 
     section#founders {
-      background-color: @brand-blue-dark;
+      background-color: darken(@brand-blue-dark, 2%);
+      .peeker {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        bottom: -70%;
+        left: -30%;
+        z-index: 0;
+        width: 100%;
+        img{
+          width: 70%;
+        }
+      }
       .story {
         color: @brand-white;
         padding-top: 5rem;
+        z-index: 1;
         &:before {
           display:none;
         }

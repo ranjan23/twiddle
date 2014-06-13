@@ -20,6 +20,7 @@ body {
 }
 body main section {
   zoom: 1;
+  overflow: hidden;
   height: 100%;
   position: relative;
   margin: 0;
@@ -131,7 +132,7 @@ body main section .story .caption p {
   }
 }
 body main section#title {
-  background-image: url(images/lockFenceBG.jpg);
+  background-image: url(images/forestBG.jpg);
 }
 body main section#curated {
   background-image: url(images/curatedBG.jpg);
@@ -143,11 +144,24 @@ body main section#snacky {
   background-image: url(images/mainBG.jpg);
 }
 body main section#founders {
-  background-color: #016496;
+  background-color: #015d8c;
+}
+body main section#founders .peeker {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: -70%;
+  left: -30%;
+  z-index: 0;
+  width: 100%;
+}
+body main section#founders .peeker img {
+  width: 70%;
 }
 body main section#founders .story {
   color: #ffffff;
   padding-top: 5rem;
+  z-index: 1;
 }
 body main section#founders .story:before {
   display: none;
