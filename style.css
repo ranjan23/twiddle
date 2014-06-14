@@ -247,6 +247,12 @@ body main section#signup-form .section-title h1 {
   color: #016496;
   font-size: 60px;
 }
+body main section#signup-form footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+}
 body main section#signup-form form {
   margin: 0 auto;
   padding: 0 5%;
