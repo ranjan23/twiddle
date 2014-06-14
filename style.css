@@ -25,7 +25,7 @@ body main section {
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: #1d2a35;
+  background-color: #000000;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -247,6 +247,15 @@ body main section#signup-form .section-title h1 {
   color: #016496;
   font-size: 60px;
 }
+body main section#signup-form .info {
+  color: #000000;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+body main section#signup-form .info p {
+  margin: 0.5rem 0;
+  font-size: 20px;
+}
 body main section#signup-form footer {
   position: absolute;
   bottom: 0;
@@ -259,14 +268,6 @@ body main section#signup-form form {
   padding-bottom: 3rem;
   text-align: center;
   max-width: 1200px;
-}
-body main section#signup-form form div.info {
-  margin-bottom: 2rem;
-}
-body main section#signup-form form div.info p {
-  margin: 0.5rem 0;
-  padding: 0;
-  font-size: 30px;
 }
 body main section#signup-form form label {
   font-size: 1.2rem;

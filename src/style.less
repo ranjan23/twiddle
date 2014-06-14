@@ -18,7 +18,7 @@
 @brand-blue: #3c96c8;
 @brand-blue-dark: #016496;
 @brand-green: #339966;
-@brand-black: #1d2a35;
+@brand-black: #000;
 @brand-gray: #7f8795;
 @brand-white: #fff;
 
@@ -237,6 +237,15 @@ body {
           font-size: 60px;
         }
       }
+      .info {
+        color: @brand-black;
+        margin-bottom: 2rem;
+        text-align: center;
+        p {
+          margin: 0.5rem 0;
+          font-size: 20px;
+        }
+      }
       footer {
         position: absolute;
         bottom: 0;
@@ -249,14 +258,6 @@ body {
         padding-bottom: 3rem;
         text-align: center;
         max-width: 1200px;
-        div.info {
-          margin-bottom: 2rem;
-          p {
-            margin: 0.5rem 0;
-            padding: 0;
-            font-size: 30px;
-          }
-        }
         label {
           font-size: 1.2rem;
           margin: 0.5em 0 0.2em;
