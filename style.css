@@ -1,21 +1,34 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: medium;
+}
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.2rem;
 }
 body {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  color: #ffffff;
   min-width: 400px;
 }
 body main section {
@@ -52,12 +65,6 @@ body main section .header img {
 body main section .section-title {
   width: 100%;
   text-align: center;
-}
-body main section .section-title h1 {
-  font-size: 250%;
-}
-body main section .section-title h2 {
-  font-size: 200%;
 }
 body main section .story {
   width: 100%;
@@ -99,12 +106,7 @@ body main section .story .caption:after {
 body main section .story .caption:after {
   clear: both;
 }
-body main section .story .caption h2 {
-  margin-bottom: 1rem;
-  font-size: 200%;
-}
 body main section .story .caption p {
-  font-size: 120%;
   margin: 0;
   padding: 0;
 }
@@ -145,12 +147,7 @@ body main section .story .caption p {
   body main section .story .mobile-caption:after {
     clear: both;
   }
-  body main section .story .mobile-caption h2 {
-    margin-bottom: 1rem;
-    font-size: 250%;
-  }
   body main section .story .mobile-caption p {
-    font-size: 120%;
     margin: 0;
     padding: 0;
   }
@@ -215,8 +212,8 @@ body main section#founders .story .container .caption {
   line-height: 1.5;
 }
 body main section#founders .story .container .caption h3 {
-  font-size: 140%;
   display: inline;
+  padding-right: 0.5rem;
 }
 @media only screen and (max-width: 700px), (device-aspect-ratio: 40/71) {
   body main section#founders .story .container .caption {
@@ -231,7 +228,6 @@ body main section#signup-form .section-title {
 }
 body main section#signup-form .section-title h1 {
   color: #016496;
-  font-size: 60px;
 }
 body main section#signup-form .info {
   color: #000000;
@@ -241,7 +237,6 @@ body main section#signup-form .info {
 }
 body main section#signup-form .info p {
   margin: 0.5rem 0;
-  font-size: 20px;
 }
 body main section#signup-form footer {
   position: absolute;

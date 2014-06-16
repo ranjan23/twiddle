@@ -1,3 +1,4 @@
+// Border Box
 * {box-sizing: border-box;}
 
 // Mixins
@@ -19,15 +20,29 @@
 @brand-gray: #7f8795;
 @brand-white: #fff;
 
-// Page Styling
-h1, h2, h3, h4, h5, h6 { font-family:  'Open Sans', sans-serif; font-weight: 300; }
-
+// Typography
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: @brand-white;
+  font-size: medium;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h1 { font-size: 4rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.8rem; }
+p { font-size: 1.2rem; }
+
+// Page Styling
+body {
+  margin: 0;
+  padding: 0;
   min-width: 400px;
 
   main {
@@ -56,8 +71,6 @@ body {
       .section-title {
         width: 100%;
         text-align: center;
-        h1 { font-size: 250%; }
-        h2 { font-size: 200%; }
       }
 
       .story {
@@ -90,12 +103,7 @@ body {
           width: 60%;
           vertical-align: middle;
           display: inline-block;
-          h2 {
-            margin-bottom: 1rem;
-            font-size: 200%;
-          }
           p {
-            font-size: 120%;
             margin:0;
             padding:0;
           }
@@ -127,12 +135,7 @@ body {
             margin: 3%;
             padding:0;
             display: inline-block;
-            h2 {
-              margin-bottom: 1rem;
-              font-size: 250%;
-            }
             p {
-              font-size: 120%;
               margin:0;
               padding:0;
             }
@@ -200,10 +203,7 @@ body {
             text-align: left;
             font-size: 100%;
             line-height: 1.5;
-            h3 {
-              font-size: 140%;
-              display: inline;
-            }
+            h3 { display: inline; padding-right: 0.5rem; }
           }
           @media only screen and (max-width: 700px), (device-aspect-ratio: 40/71) {
             .caption { display: none; }
@@ -218,7 +218,6 @@ body {
         position: static;
         h1 {
           color: @brand-blue-dark;
-          font-size: 60px;
         }
       }
       .info {
@@ -228,7 +227,6 @@ body {
         padding: 0 1rem;
         p {
           margin: 0.5rem 0;
-          font-size: 20px;
         }
       }
       footer {
