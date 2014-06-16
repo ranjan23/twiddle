@@ -145,6 +145,15 @@ body main section .story .caption p {
   body main section .story .mobile-caption:after {
     clear: both;
   }
+  body main section .story .mobile-caption h2 {
+    margin-bottom: 1rem;
+    font-size: 250%;
+  }
+  body main section .story .mobile-caption p {
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+  }
 }
 body main section#title {
   background-image: url(images/forestBG.jpg);
@@ -209,7 +218,7 @@ body main section#founders .story .container .caption h3 {
   font-size: 140%;
   display: inline;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px), (device-aspect-ratio: 40/71) {
   body main section#founders .story .container .caption {
     display: none;
   }
