@@ -11,9 +11,6 @@
 .right() { text-align: right; }
 .center() { text-align: center; }
 
-// Fonts
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
-
 // Colours
 @brand-blue: #3c96c8;
 @brand-blue-dark: #016496;
@@ -23,7 +20,7 @@
 @brand-white: #fff;
 
 // Page Styling
-h1, h2, h3, h4, h5, h6 { font-family:  "Open Sans", sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family:  'Open Sans', sans-serif; }
 
 body {
   margin: 0;
@@ -59,6 +56,8 @@ body {
       .section-title {
         width: 100%;
         text-align: center;
+        h1 { font-size: 250%; }
+        h2 { font-size: 200%; }
       }
 
       .story {
@@ -93,41 +92,12 @@ body {
           display: inline-block;
           h2 {
             margin-bottom: 1rem;
-            font-size: 30px;
+            font-size: 200%;
           }
           p {
-            font-size: 20px;
+            font-size: 120%;
             margin:0;
             padding:0;
-          }
-        }
-      }
-
-      @media screen and (device-aspect-ratio: 40/71) {
-        .story {
-          &:before {
-            display: none;
-          }
-          img {
-            max-width: 80%;
-            max-height: 60%;
-            margin: 3%;
-            margin-top: 10%;
-            padding:0;
-          }
-          .caption {
-            display: none;
-          }
-          .container {
-            display: block;
-            .caption { display: none; }
-            img { width: 200px; }
-          }
-          .mobile-caption {
-            .clearfix;
-            margin: 3%;
-            padding:0;
-            display: inline-block;
           }
         }
       }
@@ -146,6 +116,11 @@ body {
           }
           .caption {
             display: none;
+          }
+          .container {
+            display: block;
+            .caption { display: none; }
+            img { width: 200px; }
           }
           .mobile-caption {
             .clearfix;
@@ -214,10 +189,10 @@ body {
             max-width: 600px;
             padding-left: 2rem;
             text-align: left;
-            font-size: 16px;
-            line-height: 24px;
+            font-size: 100%;
+            line-height: 1.5;
             h3 {
-              font-size: 22px;
+              font-size: 140%;
               display: inline;
             }
           }
@@ -241,6 +216,7 @@ body {
         color: @brand-black;
         margin-bottom: 2rem;
         text-align: center;
+        padding: 0 1rem;
         p {
           margin: 0.5rem 0;
           font-size: 20px;

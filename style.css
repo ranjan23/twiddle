@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 * {
   box-sizing: border-box;
 }
@@ -8,7 +7,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 body {
   margin: 0;
@@ -53,6 +52,12 @@ body main section .section-title {
   width: 100%;
   text-align: center;
 }
+body main section .section-title h1 {
+  font-size: 250%;
+}
+body main section .section-title h2 {
+  font-size: 200%;
+}
 body main section .story {
   width: 100%;
   position: absolute;
@@ -95,14 +100,14 @@ body main section .story .caption:after {
 }
 body main section .story .caption h2 {
   margin-bottom: 1rem;
-  font-size: 30px;
+  font-size: 200%;
 }
 body main section .story .caption p {
-  font-size: 20px;
+  font-size: 120%;
   margin: 0;
   padding: 0;
 }
-@media screen and (device-aspect-ratio: 40/71) {
+@media only screen and (max-width: 600px) {
   body main section .story:before {
     display: none;
   }
@@ -124,35 +129,6 @@ body main section .story .caption p {
   }
   body main section .story .container img {
     width: 200px;
-  }
-  body main section .story .mobile-caption {
-    zoom: 1;
-    margin: 3%;
-    padding: 0;
-    display: inline-block;
-  }
-  body main section .story .mobile-caption:before,
-  body main section .story .mobile-caption:after {
-    content: "";
-    display: table;
-  }
-  body main section .story .mobile-caption:after {
-    clear: both;
-  }
-}
-@media only screen and (max-width: 600px) {
-  body main section .story:before {
-    display: none;
-  }
-  body main section .story img {
-    max-width: 80%;
-    max-height: 60%;
-    margin: 3%;
-    margin-top: 10%;
-    padding: 0;
-  }
-  body main section .story .caption {
-    display: none;
   }
   body main section .story .mobile-caption {
     zoom: 1;
@@ -225,11 +201,11 @@ body main section#founders .story .container .caption {
   max-width: 600px;
   padding-left: 2rem;
   text-align: left;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 100%;
+  line-height: 1.5;
 }
 body main section#founders .story .container .caption h3 {
-  font-size: 22px;
+  font-size: 140%;
   display: inline;
 }
 @media only screen and (max-width: 700px) {
@@ -251,6 +227,7 @@ body main section#signup-form .info {
   color: #000000;
   margin-bottom: 2rem;
   text-align: center;
+  padding: 0 1rem;
 }
 body main section#signup-form .info p {
   margin: 0.5rem 0;
