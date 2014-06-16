@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
 }
-body {
+html {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #ffffff;
   font-size: medium;
 }
 @media only screen and (max-width: 600px), (device-aspect-ratio: 40/71) {
-  body {
+  html {
     font-size: large;
   }
 }
