@@ -7,6 +7,11 @@ body {
   color: #ffffff;
   font-size: medium;
 }
+@media only screen and (max-width: 600px), (device-aspect-ratio: 40/71) {
+  body {
+    font-size: large;
+  }
+}
 h1,
 h2,
 h3 {
