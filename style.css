@@ -243,6 +243,10 @@ body main section#signup-form .info {
 body main section#signup-form .info p {
   margin: 0.5rem 0;
 }
+body main section#signup-form .info.success {
+  color: #339966;
+  display: none;
+}
 body main section#signup-form footer {
   position: absolute;
   bottom: 0;
